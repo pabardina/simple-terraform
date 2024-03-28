@@ -1,4 +1,6 @@
 terraform {
+  required_version = "1.5.5"
+
   backend "s3" {
     bucket = "karen-test-bucket-2024"
     key    = "env.tfstate"
@@ -22,6 +24,7 @@ terraform {
   required_providers {
     aws = {
       source = "hashicorp/aws"
+      version = "5.42.0"
     }
   }
 }
