@@ -1,5 +1,5 @@
 terraform {
-  required_version = "1.5.5"
+  required_version = "1.5.6"
 
   backend "s3" {
     bucket = "karen-test-bucket-2024"
